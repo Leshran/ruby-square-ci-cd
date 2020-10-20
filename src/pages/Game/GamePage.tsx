@@ -31,7 +31,6 @@ const styles: Style = (theme: CustomTheme): Record<ClassNames, CSSProperties> =>
     paddingTop: theme.spacing(4),
     display: 'flex',
     justifyContent: 'center',
-    animation: 'rotation 100s infinite linear',
   },
 });
 
