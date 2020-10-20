@@ -17,7 +17,7 @@ export const GamePage: React.FC<Props> = (props: Props) => {
   const { classes } = props;
   return (
     <div className={classes.container}>
-      <span>Rubis Square</span>
+      <span>Rubis Square with a spin</span>
       <div className={classes.gameContainer}>
         <GameComponent />
       </div>
@@ -31,6 +31,7 @@ const styles: Style = (theme: CustomTheme): Record<ClassNames, CSSProperties> =>
     paddingTop: theme.spacing(4),
     display: 'flex',
     justifyContent: 'center',
+    animation: 'rotation 100s infinite linear',
   },
 });
 
