@@ -22,10 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  animation: rotation 100s infinite linear;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #16ad51;
 }
 
 @keyframes App-logo-spin {
