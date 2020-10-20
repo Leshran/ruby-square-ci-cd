@@ -19,11 +19,13 @@ const rootReducer = combineReducers({
 const initialState = {
   gameState: {
     game: {
-      nbColor: 3,
+      nbColor: 4,
       board: [
-        [0, 1, 2],
-        [0, 1, 2],
-        [0, 1, 2],
+        [0, 1, 2, 3],
+        [0, 1, 2, 3],
+        [0, 1, 2, 3],
+        [0, 1, 2, 3],
+        [0, 1, 2, 3],
       ],
     },
   },
